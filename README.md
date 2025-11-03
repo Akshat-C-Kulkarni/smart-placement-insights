@@ -7,15 +7,15 @@ To analyze student academic and behavioral data to identify key factors influenc
 This project focuses on building a data-driven model that can predict whether a student is likely to get placed based on attributes such as CGPA, technical skills, internships, and academic performance. It involves detailed Exploratory Data Analysis (EDA), feature engineering, and classification model building. The final insights and predictions will be displayed in an interactive dashboard using **Streamlit**.
 
 ## ⚙️ Project Structure
-smart-placement-insights/
-│
-├── data/ # Datasets
-├── notebooks/ # Jupyter notebooks for EDA and modeling
-├── src/ # Python scripts for preprocessing and training
-├── app/ # Streamlit app files
-├── model/ # Saved model and encoders
-├── reports/ # Documentation, visualizations
-└── demo/ # Screenshots or videos for presentation
+smart-placement-insights/<br>
+│<br>
+├── data/ # Datasets<br>
+├── notebooks/ # Jupyter notebooks for EDA and modeling<br>
+├── src/ # Python scripts for preprocessing and training<br>
+├── app/ # Streamlit app files<br>
+├── model/ # Saved model and encoders<br>
+├── reports/ # Documentation, visualizations<br>
+└── demo/ # Screenshots or videos for presentation<br>
 
 
 ## 🚀 Output
