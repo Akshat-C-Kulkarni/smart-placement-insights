@@ -6,6 +6,10 @@ To analyze student academic and behavioral data to identify key factors influenc
 ## 🧠 Description
 This project focuses on building a data-driven model that can predict whether a student is likely to get placed based on attributes such as CGPA, technical skills, internships, and academic performance. It involves detailed Exploratory Data Analysis (EDA), feature engineering, and classification model building. The final insights and predictions will be displayed in an interactive dashboard using **Streamlit**.
 
+## 📊 Dataset
+The dataset used in this project is stored locally in the `/data/` folder and **not uploaded to GitHub** to keep the repository lightweight.  
+You can download the dataset from the same source used in this project — **“Eman Fatima – College Placement Analysis” (Kaggle)** — and place it inside the `data/` folder before running the notebooks.
+
 ## ⚙️ Project Structure
 smart-placement-insights/<br>
 │<br>
