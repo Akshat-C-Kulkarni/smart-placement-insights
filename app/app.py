@@ -36,14 +36,14 @@ Enter a student’s details below to predict their **placement likelihood** usin
 with st.form("placement_form"):
     st.subheader("🧾 Enter Student Details")
 
-    IQ = st.number_input("IQ", min_value=0, max_value=200, value=100)
-    Prev_Sem_Result = st.number_input("Previous Semester Result (%)", min_value=0, max_value=100, value=70)
-    CGPA = st.number_input("CGPA", min_value=0.0, max_value=10.0, value=7.5, format="%.2f")
-    Academic_Performance = st.number_input("Academic Performance (%)", min_value=0, max_value=100, value=75)
+    IQ = st.number_input("IQ", min_value=0, max_value=200, value=0)
+    Prev_Sem_Result = st.number_input("Previous Semester Result (%)", min_value=0, max_value=100, value=0)
+    CGPA = st.number_input("CGPA", min_value=0.0, max_value=10.0, value=0.0, format="%.2f")
+    Academic_Performance = st.number_input("Academic Performance (%)", min_value=0, max_value=100, value=0)
     Internship_Experience = st.selectbox("Internship Experience", ["Yes", "No"])
-    Extra_Curricular_Score = st.number_input("Extra Curricular Score", min_value=0, max_value=10, value=5)
-    Communication_Skills = st.number_input("Communication Skills (1-10)", min_value=1, max_value=10, value=7)
-    Projects_Completed = st.number_input("Projects Completed", min_value=0, max_value=20, value=3)
+    Extra_Curricular_Score = st.number_input("Extra Curricular Score (1-10)", min_value=0, max_value=10, value=0)
+    Communication_Skills = st.number_input("Communication Skills (1-10)", min_value=1, max_value=10, value=1)
+    Projects_Completed = st.number_input("Projects Completed", min_value=0, max_value=20, value=0)
 
     submitted = st.form_submit_button("🔍 Predict Placement")
 
